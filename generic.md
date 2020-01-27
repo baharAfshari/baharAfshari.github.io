@@ -2,12 +2,9 @@
 layout: post
 title: Generic
 description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+image: assets/images/pic01.png
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+The basic idea in the Vicsek model is that at each time step, each particle moves in the average direction of its neighbours with some noise caused by the disorder. In other words, each particle follows its neighbours. However, the particles make mistakes when evaluating their neighbours' trajectory, which is considered noise. In the mathematical description of the Vicsek model in two dimensions, we assume that this model is composed of particles that are in a two-dimensional plane having periodic boundary conditions. It means that if a particle crosses one of the boundaries, it re-enters the boundary. In this model, each particle has two characteristics of location and velocity (more precisely the velocity direction). The model assumes that the velocity of all particles is equal. What changes during movement is the direction (angle) of velocity.
+To arithmetically describe the interaction of equation \ref{eq:5} interactions between particles we can circle $ U_ {n} (r_ {0}, t) $ in a circle with radius $ r_ {0} $ at the center of tWichkehe particle $ n $ So the particles in this circle are called the neighbors of the particle $ n $. ($ K_ {n} (t) $ is the number of neighbors of the particle $ n $.) Then $ V_ { n} (t) $ is the average velocity of the neighbors of the particle $ n $.
